@@ -2,156 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Punkuz Shah is a Melbourne-based senior full-stack engineer building reliable products, cloud systems, and AI-enabled developer tooling.">
-  <meta name="theme-color" content="#10120f">
-  <meta property="og:title" content="Punkuz Shah — Senior Full-Stack Engineer">
-  <meta property="og:description" content="9+ years turning complex systems into dependable products.">
-  <title>Punkuz Shah — Senior Full-Stack Engineer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Punkuz Shah — senior full-stack engineer building thoughtful products, cloud systems, and AI-native software.">
+  <meta name="theme-color" content="#060612">
+  <meta property="og:title" content="Punkuz Shah — Full-Stack Engineer">
+  <meta property="og:description" content="Products with polish. Systems with backbone.">
+  <title>Punkuz Shah — Full-Stack Engineer</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="noise" aria-hidden="true"></div>
-  <header class="nav-shell">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Punkuz Shah, home">PS<span class="brand-dot">.</span></a>
-      <div class="nav-links">
-        <a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a>
-      </div>
-      <a class="nav-cta" href="mailto:punkuzshah1@gmail.com">Let’s talk <span>↗</span></a>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="loader" aria-hidden="true"><div class="loader-mark">PS<span>.</span></div><div class="loader-line"><i></i></div></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+
+  <header class="topbar">
+    <nav class="glass-nav" aria-label="Primary navigation">
+      <a class="logo" href="#home" aria-label="Punkuz Shah, home">PS<span>.</span></a>
+      <div class="nav-items"><a href="#veil">Veil Assist</a><a href="#systems">Systems</a><a href="#craft">Craft</a></div>
+      <a class="nav-contact magnetic" href="mailto:punkuzshah1@gmail.com"><span>Let’s talk</span><i>↗</i></a>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero container" id="top">
-      <div class="hero-kicker reveal"><span class="status-dot"></span> Melbourne, Australia · Open to meaningful work</div>
-      <h1 class="reveal">I build software that holds up <em>in the real world.</em></h1>
-      <div class="hero-bottom reveal">
-        <p>Senior full-stack engineer with 9+ years across customer products, secure healthcare workflows, cloud infrastructure, data systems, and independent product development.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#work">Explore selected work <span>↓</span></a>
-          <a class="button text-button" href="assets/Punkuz_Shah_Resume.pdf" download>Download résumé <span>↘</span></a>
+    <section class="hero" id="home">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="aurora aurora-a" aria-hidden="true"></div><div class="aurora aurora-b" aria-hidden="true"></div>
+      <div class="hero-content shell">
+        <div class="hero-status hero-reveal"><i></i><span>Melbourne / Australia</span><b>Available for ambitious builds</b></div>
+        <h1 class="hero-reveal">Products with <span class="glass-word">polish.</span><br>Systems with <span class="gradient-word">backbone.</span></h1>
+        <div class="hero-foot hero-reveal">
+          <p>Senior full-stack engineer with 9+ years turning complex ideas into reliable, beautifully considered software—from interface to infrastructure.</p>
+          <div class="hero-actions"><a class="liquid-button magnetic" href="#veil"><span>Explore my work</span><i>↓</i></a><a class="quiet-link" href="assets/Punkuz_Shah_Resume.pdf" download>Résumé <i>↘</i></a></div>
         </div>
-      </div>
-      <div class="signal-board reveal" aria-label="Engineering focus areas">
-        <div class="signal-orbit" aria-hidden="true"><span></span><span></span><span></span><b>PS</b></div>
-        <div class="signal-copy">
-          <span class="eyebrow">Operating across the stack</span>
-          <p>From the interface a customer touches to the event-driven services, data pipelines, and delivery systems behind it.</p>
+        <div class="hero-float glass-panel hero-reveal" data-tilt>
+          <div class="float-top"><span>Currently building</span><i>LIVE</i></div>
+          <strong>Veil Assist</strong><p>Real-time intelligence for high-stakes conversations.</p>
+          <div class="audio-mini" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
         </div>
-        <div class="signal-stats">
-          <div><strong>9+</strong><span>years building</span></div>
-          <div><strong>5</strong><span>engineering roles</span></div>
-          <div><strong>01</strong><span>independent product</span></div>
-        </div>
+        <div class="scroll-cue hero-reveal"><span>Scroll to discover</span><i>⌄</i></div>
       </div>
     </section>
 
-    <section class="marquee" aria-label="Core technologies">
-      <div class="marquee-track">
-        <span>TypeScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>React</span><i>✦</i><span>AWS</span><i>✦</i><span>System design</span><i>✦</i><span>Event-driven architecture</span><i>✦</i>
-        <span>TypeScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>React</span><i>✦</i><span>AWS</span><i>✦</i><span>System design</span><i>✦</i><span>Event-driven architecture</span><i>✦</i>
-      </div>
-    </section>
+    <section class="signal-strip" aria-label="Core expertise"><div class="signal-track"><span>TypeScript</span><i>✦</i><span>React</span><i>✦</i><span>Node.js</span><i>✦</i><span>AWS</span><i>✦</i><span>System Design</span><i>✦</i><span>AI Tooling</span><i>✦</i><span>TypeScript</span><i>✦</i><span>React</span><i>✦</i><span>Node.js</span><i>✦</i><span>AWS</span><i>✦</i><span>System Design</span><i>✦</i><span>AI Tooling</span><i>✦</i></div></section>
 
-    <section class="section container" id="work">
-      <div class="section-heading reveal"><span class="eyebrow">01 / Selected work</span><h2>Systems with a reason to exist.</h2></div>
-      <div class="project-list">
-        <article class="project project-featured reveal">
-          <div class="project-copy">
-            <div class="project-meta"><span>Independent product</span><span>2025—Now</span></div>
-            <h3>Veil Assist</h3>
-            <p class="project-lede">A cross-platform desktop assistant that combines on-screen context with live conversation input to support people during calls and presentations.</p>
-            <ul class="project-points">
-              <li>Electron desktop releases for macOS and Windows</li>
-              <li>React + TypeScript companion experience on Cloudflare Workers</li>
-              <li>Authentication and session-credit management with Supabase</li>
-            </ul>
-            <a class="project-link" href="https://veil-assist-website.timimeromanma.workers.dev/" target="_blank" rel="noreferrer">Visit live website <span>↗</span></a>
-          </div>
-          <div class="product-visual" aria-label="Abstract interface representing Veil Assist">
-            <div class="window-bar"><span></span><span></span><span></span><small>VEIL / LIVE ASSISTANCE</small></div>
-            <div class="screen">
-              <div class="live-pill"><i></i> CONTEXT ACTIVE</div>
-              <div class="wave" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
-              <p>Listening, understanding, assisting—without breaking your flow.</p>
-              <div class="screen-cards"><span>Screen context</span><span>Live conversation</span><span>Real-time response</span></div>
+    <section class="veil-section section" id="veil">
+      <div class="shell">
+        <div class="section-intro reveal"><span class="section-tag"><i>01</i> Flagship product</span><h2>Meet <span>Veil Assist.</span></h2><p>Independently imagined, engineered, packaged, and shipped for macOS and Windows.</p></div>
+        <div class="veil-stage reveal">
+          <div class="stage-glow" aria-hidden="true"></div>
+          <div class="product-window glass-panel" data-tilt>
+            <div class="window-head"><div class="traffic"><i></i><i></i><i></i></div><span>Veil Assist</span><div class="secure"><i></i> Session secure</div></div>
+            <div class="window-body">
+              <aside><div class="veil-logo">V</div><button class="active" aria-label="Live session">◉</button><button aria-label="History">⌁</button><button aria-label="Settings">⌘</button><small>01:42</small></aside>
+              <div class="conversation">
+                <div class="context-row"><span>LIVE CONTEXT</span><b><i></i> Screen + audio</b></div>
+                <div class="orb-wrap"><div class="voice-orb"><span></span><span></span><span></span></div></div>
+                <div class="live-copy"><small>VEIL IS LISTENING</small><p>“How would you explain your approach to scaling this architecture?”</p></div>
+                <div class="answer-card glass-inner"><div><i>✦</i><span>Suggested response</span><b>Now</b></div><p>I’d begin by isolating the highest-pressure paths, then evolve the system around measurable bottlenecks rather than assumptions...</p><button>Expand answer <i>↗</i></button></div>
+              </div>
+              <div class="context-panel"><span>CONTEXT SIGNALS</span><div class="signal-card"><i class="screen-icon">▱</i><div><b>On-screen context</b><small>Architecture diagram detected</small></div><em>98%</em></div><div class="signal-card"><i class="mic-icon">◉</i><div><b>Conversation</b><small>Question identified</small></div><em>LIVE</em></div><div class="mini-chart"><span>Session confidence</span><svg viewBox="0 0 260 70" aria-hidden="true"><path d="M0 56 C30 50 42 62 72 42 S118 50 140 28 S185 35 210 16 S238 23 260 8"/></svg></div></div>
             </div>
           </div>
-        </article>
-
-        <div class="project-grid">
-          <article class="project-card reveal">
-            <div class="project-number">02</div><div class="project-meta"><span>Secure cloud systems</span></div>
-            <h3>Healthcare data exchange</h3>
-            <p>Built secure file-transfer workflows across S3 and SFTP, using signatures, checksums, and encryption for dependable healthcare data movement.</p>
-            <div class="tags"><span>Node.js</span><span>AWS</span><span>SQS</span><span>S3</span></div>
-          </article>
-          <article class="project-card reveal">
-            <div class="project-number">03</div><div class="project-meta"><span>Automation at scale</span></div>
-            <h3>Mining data pipelines</h3>
-            <p>Engineered automated extraction pipelines that processed PDFs from thousands of mining-company websites through serverless AWS infrastructure.</p>
-            <div class="tags"><span>Puppeteer</span><span>Cheerio</span><span>Lambda</span><span>SQS</span></div>
-          </article>
-          <article class="project-card reveal">
-            <div class="project-number">04</div><div class="project-meta"><span>AI engineering</span></div>
-            <h3>Coding-agent evaluation</h3>
-            <p>Developed RL task-authoring toolkits and verification workflows designed to expose agent mistakes and assess generated code against requirements.</p>
-            <div class="tags"><span>Codex</span><span>Claude Code</span><span>Evaluation</span></div>
-          </article>
+          <div class="floating-chip chip-one glass-panel"><i>⌘</i><span>Cross-platform<br><b>macOS + Windows</b></span></div>
+          <div class="floating-chip chip-two glass-panel"><i>✦</i><span>Real-time<br><b>Context aware</b></span></div>
+        </div>
+        <div class="veil-story">
+          <div class="story-lead reveal"><span class="eyebrow">The idea</span><h3>Stay present.<br>Veil handles the context.</h3><p>Veil Assist brings on-screen information and live conversation together, helping people respond with confidence during calls and presentations without breaking their flow.</p><a class="liquid-button magnetic" href="https://veil-assist-website.timimeromanma.workers.dev/" target="_blank" rel="noreferrer"><span>Visit Veil Assist</span><i>↗</i></a></div>
+          <div class="story-grid">
+            <article class="feature-card glass-panel reveal" data-tilt><span>01 / Perception</span><div class="feature-icon eye"><i></i></div><h4>Understands what’s on screen</h4><p>Captures relevant visual context so assistance stays grounded in what is actually happening.</p></article>
+            <article class="feature-card glass-panel reveal" data-tilt><span>02 / Conversation</span><div class="feature-icon rings"><i></i><i></i><i></i></div><h4>Listens to the moment</h4><p>Combines live conversational input with context to respond while the interaction is unfolding.</p></article>
+            <article class="feature-card glass-panel reveal" data-tilt><span>03 / Delivery</span><div class="feature-icon bolt">↯</div><h4>Ships like a real product</h4><p>Authentication, session credits, automated tests, and packaged releases across macOS and Windows.</p></article>
+            <article class="feature-card tech-card glass-panel reveal"><span>Built independently</span><div class="tech-orbit"><i>Electron</i><i>React</i><i>TypeScript</i><i>Supabase</i><i>Cloudflare</i><b>V</b></div></article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section capabilities-wrap" id="about">
-      <div class="container capabilities">
-        <div class="section-heading reveal"><span class="eyebrow">02 / Engineering range</span><h2>Depth where it matters.<br><em>Range when it helps.</em></h2></div>
-        <div class="capability-list">
-          <div class="capability reveal"><span>01</span><h3>Product & interface</h3><p>React, Redux, Next.js, Vite, Three.js, D3.js, HTML/CSS</p></div>
-          <div class="capability reveal"><span>02</span><h3>Services & APIs</h3><p>Node.js, Nest.js, Express, Gin, REST, GraphQL, WebSockets</p></div>
-          <div class="capability reveal"><span>03</span><h3>Cloud & delivery</h3><p>AWS Lambda, S3, SQS, EC2, CodePipeline, Docker, CI/CD</p></div>
-          <div class="capability reveal"><span>04</span><h3>Data & messaging</h3><p>PostgreSQL, MongoDB, Redis, DynamoDB, RabbitMQ, Kafka</p></div>
-          <div class="capability reveal"><span>05</span><h3>Engineering quality</h3><p>TDD, unit/integration/E2E testing, Jest, SonarQube, Grafana</p></div>
+    <section class="systems-section section" id="systems">
+      <div class="shell">
+        <div class="section-intro split reveal"><span class="section-tag"><i>02</i> Engineering systems</span><h2>Built for the part<br><span>users never see.</span></h2><p>Strong products rest on systems that are secure, observable, and designed to evolve.</p></div>
+        <div class="systems-grid">
+          <article class="system-card system-large reveal" data-tilt><div class="card-no">01</div><div class="system-visual pipeline" aria-hidden="true"><span></span><i></i><i></i><i></i><i></i><b></b><b></b><b></b></div><div class="system-copy"><span>Automation at scale</span><h3>Thousands of sites.<br>One resilient pipeline.</h3><p>Automated PDF extraction across mining-company websites using Node.js, Puppeteer, Cheerio, Lambda, and SQS.</p><div class="pills"><i>Node.js</i><i>AWS Lambda</i><i>SQS</i><i>Puppeteer</i></div></div></article>
+          <article class="system-card reveal" data-tilt><div class="card-no">02</div><div class="shield" aria-hidden="true"><span>✓</span><i></i><i></i></div><div class="system-copy"><span>Secure data exchange</span><h3>Healthcare workflows built on trust.</h3><p>Encrypted transfers, signatures, checksums, S3, and SFTP—engineered for data that cannot be treated casually.</p><div class="pills"><i>AWS</i><i>Encryption</i><i>SFTP</i></div></div></article>
+          <article class="system-card reveal" data-tilt><div class="card-no">03</div><div class="agent-visual" aria-hidden="true"><div class="node central">AI</div><div class="node n1">Task</div><div class="node n2">Grade</div><div class="node n3">Verify</div><svg viewBox="0 0 300 180"><path d="M150 90L68 45M150 90L238 48M150 90L148 155"/></svg></div><div class="system-copy"><span>AI engineering</span><h3>Evaluation that finds the cracks.</h3><p>RL task-authoring toolkits and grading workflows that capture coding-agent mistakes and verify generated changes.</p><div class="pills"><i>Codex</i><i>Claude Code</i><i>Evaluation</i></div></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section container" id="experience">
-      <div class="section-heading split reveal"><div><span class="eyebrow">03 / Experience</span><h2>A track record of shipping.</h2></div><p>From early full-stack delivery to technical leadership and independent product ownership.</p></div>
-      <div class="timeline">
-        <article class="role reveal"><div class="role-time">2024—2026</div><div><span class="role-company">Adevify Labs</span><h3>Senior Software Engineer</h3></div><p>Delivered customer-facing workflows across TypeScript/Node.js services and React/Vite interfaces. Designed reusable components, strengthened engineering quality, and mentored junior developers.</p></article>
-        <article class="role reveal"><div class="role-time">2021—2024</div><div><span class="role-company">AWWCOR Inc</span><h3>Node.js Developer</h3></div><p>Built AWS-based microservices, serverless processing, secure healthcare transfers, CI/CD systems, and observability practices for reliable cloud delivery.</p></article>
-        <article class="role reveal"><div class="role-time">2020—2021</div><div><span class="role-company">Podamibe Nepal</span><h3>Backend Developer</h3></div><p>Led a small cross-functional team delivering an athlete platform, API integrations, customer-care systems, and real-time communications applications.</p></article>
-        <article class="role reveal"><div class="role-time">2019—2020</div><div><span class="role-company">Tekkon Technology</span><h3>Full Stack Developer</h3></div><p>Created large-scale extraction pipelines, a school social platform, and visualization-heavy experiences with Three.js and D3.js.</p></article>
-        <article class="role reveal"><div class="role-time">2017—2019</div><div><span class="role-company">Parijat Infotech</span><h3>Web Developer</h3></div><p>Built e-commerce APIs, a complete backend for a Japanese publishing platform, responsive React components, and automated tests.</p></article>
-      </div>
-    </section>
-
-    <section class="section profile-section">
-      <div class="container profile-grid">
-        <div class="profile-mark reveal" aria-label="Photo placeholder"><span>PS</span><small>Portrait coming soon</small></div>
-        <div class="profile-copy reveal">
-          <span class="eyebrow">04 / Beyond the code</span>
-          <blockquote>“I care about the whole system: what the customer experiences, how the service behaves under pressure, and whether the next engineer can understand it.”</blockquote>
-          <p>Based in Melbourne, I bring a builder’s perspective shaped by product work, backend systems, cloud delivery, mentoring, and shipping my own desktop application. I work comfortably across ambiguity—from the first architecture sketch to production monitoring.</p>
-          <div class="credentials"><span>AWS Certified Solutions Architect — Associate</span><span>B.E. Information Science & Engineering</span></div>
+    <section class="craft-section section" id="craft">
+      <div class="shell">
+        <div class="section-intro reveal"><span class="section-tag"><i>03</i> Across the stack</span><h2>One engineer.<br><span>Full-system thinking.</span></h2></div>
+        <div class="craft-console glass-panel reveal">
+          <div class="console-top"><span>punkuz / capabilities</span><div><i></i><i></i></div></div>
+          <div class="craft-tabs" role="tablist" aria-label="Capabilities"><button class="active" data-tab="product" role="tab">Product</button><button data-tab="backend" role="tab">Backend</button><button data-tab="cloud" role="tab">Cloud</button><button data-tab="quality" role="tab">Quality</button></div>
+          <div class="tab-content active" id="product"><div><span>01</span><h3>Interfaces that feel intentional.</h3><p>React, Redux, Next.js, Vite, Three.js, D3.js, responsive HTML/CSS</p></div><div class="code-block"><small>product-thinking.ts</small><code><b>const</b> experience = {<br>&nbsp;&nbsp;clarity: <i>true</i>,<br>&nbsp;&nbsp;performance: <i>true</i>,<br>&nbsp;&nbsp;details: <span>"considered"</span><br>};</code></div></div>
+          <div class="tab-content" id="backend"><div><span>02</span><h3>Services built to keep their promises.</h3><p>Node.js, Nest.js, Express, Go, REST, GraphQL, WebSockets, microservices</p></div><div class="code-block"><small>architecture.ts</small><code><b>design</b>({<br>&nbsp;&nbsp;boundaries: <span>"clear"</span>,<br>&nbsp;&nbsp;failureModes: <span>"known"</span>,<br>&nbsp;&nbsp;evolution: <i>true</i><br>});</code></div></div>
+          <div class="tab-content" id="cloud"><div><span>03</span><h3>Infrastructure that earns confidence.</h3><p>AWS Lambda, S3, SQS, EC2, CodePipeline, Docker, CI/CD, event-driven systems</p></div><div class="code-block"><small>delivery.yml</small><code>observe: <i>true</i><br>automate: <i>true</i><br>recover: <span>gracefully</span><br>ship: <b>continuously</b></code></div></div>
+          <div class="tab-content" id="quality"><div><span>04</span><h3>Quality as a system, not a phase.</h3><p>TDD, unit/integration/E2E tests, Jest, SonarQube, Grafana, code review</p></div><div class="code-block"><small>confidence.test.ts</small><code><b>expect</b>(system)<br>&nbsp;&nbsp;.toBeObservable()<br>&nbsp;&nbsp;.toBeTested()<br>&nbsp;&nbsp;.toBeMaintainable();</code></div></div>
         </div>
+        <div class="stats-row reveal"><div><strong data-count="9">0</strong><span>Years shaping software</span></div><div><strong data-count="4">0</strong><span>Languages used professionally</span></div><div><strong data-count="2">0</strong><span>Desktop platforms shipped</span></div><div><strong>∞</strong><span>Curiosity for hard problems</span></div></div>
       </div>
     </section>
 
-    <section class="contact container reveal">
-      <span class="eyebrow">Have a hard problem?</span>
-      <h2>Let’s build something<br><em>worth relying on.</em></h2>
-      <div class="contact-row"><a class="button primary large" href="mailto:punkuzshah1@gmail.com">punkuzshah1@gmail.com <span>↗</span></a><p>Available for senior full-stack, backend, platform, and product engineering opportunities.</p></div>
+    <section class="about-section section">
+      <div class="shell about-grid"><div class="identity-card glass-panel reveal" data-tilt><div class="identity-glow"></div><span>PS</span><small>Portrait arriving soon</small><div class="identity-status"><i></i> Melbourne, VIC</div></div><div class="about-copy reveal"><span class="section-tag"><i>04</i> The engineer behind it</span><h2>Calm in complexity.<br><span>Restless about quality.</span></h2><p class="about-lead">I care about the whole product—the experience people feel, the architecture beneath it, and the engineers who will inherit it.</p><p>Across nine years I’ve built customer-facing platforms, secure healthcare workflows, data automation, real-time systems, and an independent desktop product. I’m at my best where product judgment and technical depth need to meet.</p><div class="cert-row"><div><i>✦</i><span>AWS Certified Solutions Architect<br><b>Associate</b></span></div><div><i>⌘</i><span>B.E. Information Science<br><b>VTU, India</b></span></div></div></div></div>
     </section>
+
+    <section class="contact-section section"><div class="contact-orb" aria-hidden="true"></div><div class="shell contact-inner reveal"><span class="section-tag"><i>05</i> Start a conversation</span><h2>Have an idea that<br>deserves <span>great engineering?</span></h2><p>Let’s turn it into something people remember—and a system you can rely on.</p><div class="contact-actions"><a class="liquid-button large magnetic" href="mailto:punkuzshah1@gmail.com"><span>punkuzshah1@gmail.com</span><i>↗</i></a><a class="social-circle magnetic" href="https://www.linkedin.com/in/punkuz-shah-66080a9a/" target="_blank" rel="noreferrer">in</a><a class="social-circle magnetic" href="https://github.com/punkuz" target="_blank" rel="noreferrer">gh</a></div></div></section>
   </main>
 
-  <footer class="footer"><div class="container"><a class="brand" href="#top">PS<span class="brand-dot">.</span></a><div class="footer-links"><a href="https://www.linkedin.com/in/punkuz-shah-66080a9a/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/punkuz" target="_blank" rel="noreferrer">GitHub ↗</a><a href="assets/Punkuz_Shah_Resume.pdf" download>Résumé ↘</a></div><p>Designed & engineered with intent.<br>© <span id="year"></span> Punkuz Shah.</p></div></footer>
+  <footer><div class="shell"><a class="logo" href="#home">PS<span>.</span></a><p>Senior Full-Stack Engineer · Melbourne</p><div><span>© <b id="year"></b></span><a href="assets/Punkuz_Shah_Resume.pdf" download>Download résumé ↘</a></div></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
