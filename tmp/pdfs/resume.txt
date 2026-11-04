@@ -1,0 +1,101 @@
+                                        PUNKUZ SHAH
+                                SENIOR FULL-STACK SOFTWARE ENGINEER
+            Melbourne, VIC | +61 468 405 356 | punkuzshah1@gmail.com | LinkedIn | GitHub
+
+PROFESSIONAL SUMMARY
+
+Full-Stack Software Engineer with 9+ years of experience building TypeScript/Node.js, React and AWS
+applications. Delivered customer-facing products, secure healthcare data workflows and automated data
+pipelines processing PDFs from thousands of websites. Experienced in technical leadership, microservices,
+event-driven architecture, testing and code review. Independently building a cross-platform desktop product.
+
+TECHNICAL SKILLS
+
+Languages : JavaScript, TypeScript, Python, Go
+Frontend: React, Redux, Next.js, Vite, HTML/CSS, Three.js, D3.js
+Backend & APIs: Node.js, Nest.js, Express.js, Gin, REST API, GraphQL, WebSockets, Socket.io
+Cloud & Delivery: AWS (Lambda, S3, SQS, EC2, CodePipeline), Docker, CI/CD
+Database & Messaging: PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, DynamoDB, RabbitMQ, Kafka,
+Testing & Engineering: Jest, TDD, Unit/Integration/E2E tests, SonarQube, Grafana
+Architecture: Microservices, Event-driven systems, API design, Design patterns
+
+
+PROFESSIONAL EXPERIENCE
+
+ADEVIFY LABS | Senior Software Engineer​                                                       Mar 2024 – Sep 2026
+ • Delivered QuickAppz functionality across TypeScript/Node.js backend services and React/Vite interfaces,
+   connecting API development with customer-facing workflows.
+ • Designed backend APIs and reusable application components, applying modern API patterns and separation of
+   concerns to keep features maintainable.
+ • Improved code quality through SOLID principles, design patterns, code reviews and automated engineering
+   checks.
+ • Mentored junior engineers and supported the adoption of AI-assisted development tools, including GitHub
+   Copilot, Claude Code and Codex.
+
+AWWCOR INC | Node.js Developer​                                                                 Jul 2021 – Feb 2024
+ • Developed TypeScript/Node.js microservices and stateless APIs for AWS-based applications, supporting
+   modular backend delivery.
+ • Built serverless and event-driven processing components using AWS Lambda, SQS and S3 for application and
+   data workflows.
+ • Implemented healthcare data-transfer workflows involving S3, SFTP, signatures, checksums and encryption for
+   secure file exchange.
+ • Worked with EC2, Elastic Beanstalk and CodePipeline alongside CI/CD processes to build and deliver
+   cloud-hosted services.
+ • Applied TDD, design patterns and code-quality practices to support reliability, maintainability and release
+   confidence.
+ • Integrated SonarQube for static code analysis and quality monitoring, and used Grafana dashboards to monitor
+   application performance, identify issues, and improve system reliability.
+PODAMIBE NEPAL | Backend Developer​                ​         ​      ​        ​       ​        May 2020 – Jul 2021
+ • Led delivery of the Topnotch Athletes platform, working with two developers and a DevOps engineer across
+   Node.js, React, MongoDB, AWS and Socket.io.
+ • Built APIs and a third-party Autodesk customer portal integration using Node.js, Sequelize and PostgreSQL.
+ • Developed customer-care and real-time support applications using Node.js, MongoDB, Socket.io, Asterisk and
+   SIP.js.
+
+TEKKON TECHNOLOGY | Full Stack Developer​                                                      Mar 2019 – Apr 2020
+ • Built data-extraction pipelines to process PDFs from thousands of mining-company websites using Node.js,
+   Puppeteer, Cheerio, AWS Lambda and SQS.
+ • Developed a full-stack social networking platform for schools, building interactive React interfaces and
+   GraphQL APIs with Node.js, MongoDB, and AWS.
+ • Created visualisation-heavy web features with Three.js and D3.js, and added unit, integration and end-to-end
+   tests.
+
+PARIJAT INFOTECH | Web Developer​                                                               Jan 2017 – Feb 2019
+ • Built Node.js/Express APIs for e-commerce applications using MongoDB and AWS.
+ • Designed and developed the complete backend REST API for a Japanese news publishing platform using
+   Node.js, Express.js, and MongoDB.
+ • Developed responsive React user-interface components with HTML and CSS, and wrote Jest unit tests.
+
+
+
+INDEPENDENT PRODUCT DEVELOPMENT
+
+VEIL ASSIST Live Website Link | Side Project · macOS & Windows
+ • Developed Veil Assist, an Electron desktop assistant for macOS and Windows that combines on-screen context
+   and live conversation input to provide real-time assistance during calls and presentations.
+ • Built authentication and session-credit management with Supabase, alongside a React/TypeScript companion
+   website deployed on Cloudflare Workers.
+ • Packaged desktop releases for macOS and Windows, with automated checks and application tests, developing
+   the product independently.
+
+
+
+ADDITIONAL PROFESSIONAL WORK
+
+Coding-Agent Evaluation & Tooling | Part-Time Engineering Work
+ • Developed reinforcement-learning task-authoring toolkits and coding-agent evaluation tasks, using Claude Code
+   and Codex as authoring agents.
+ • Built grading and verification workflows that capture agent mistakes and check generated changes against task
+   requirements.
+
+
+
+CERTIFICATION
+
+AWS Certified Solutions Architect – Associate
+
+EDUCATION
+
+Bachelor of Engineering, Information Science & Engineering
+Visvesvaraya Technological University, India | 2012 – 2016
+
