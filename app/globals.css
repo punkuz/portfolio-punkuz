@@ -80,9 +80,9 @@ button { color: inherit; font: inherit; }
 @keyframes pulse { 50% { transform: scaleY(.35); opacity: .5; } }
 
 .signal-strip { overflow: hidden; padding: 16px 0; border-block: 1px solid var(--line); background: rgba(255,255,255,.015); }
-.signal-track { width: max-content; display: flex; gap: 32px; color: #859b98; font: 400 10px var(--mono); letter-spacing: .11em; text-transform: uppercase; animation: marquee 28s linear infinite; }
-.signal-track span { display: flex; align-items: center; gap: 32px; }.signal-track i { color: var(--amber); font-style: normal; }
-@keyframes marquee { to { transform: translateX(-50%); } }
+.signal-track { width: max-content; display: flex; gap: 32px; color: #859b98; font: 400 10px var(--mono); letter-spacing: .11em; text-transform: uppercase; white-space: nowrap; will-change: transform; transform: translate3d(0,0,0); backface-visibility: hidden; animation: marquee 28s linear infinite; }
+.signal-track span { display: flex; flex: 0 0 auto; align-items: center; gap: 32px; }.signal-track i { color: var(--amber); font-style: normal; }
+@keyframes marquee { from { transform: translate3d(0,0,0); } to { transform: translate3d(calc(-50% - 16px),0,0); } }
 .section { padding: 150px 0; position: relative; }
 .section-intro { margin-bottom: 75px; display: grid; grid-template-columns: 220px 1fr; column-gap: 55px; align-items: start; }
 .section-tag { padding-top: 15px; color: #acc1bd; font: 400 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
@@ -139,5 +139,5 @@ footer { padding: 35px 0; border-top: 1px solid var(--line); }footer .shell { di
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }.hero-reveal,.reveal { opacity: 1; transform: none; animation: none; transition: none; }.hero-art,.aurora,.audio-mini b,.voice-orb,.voice-orb span,.rings i,.tech-orbit::after,.identity-card::after,.contact-orb,.signal-track { animation: none; }
+  html { scroll-behavior: auto; }.hero-reveal,.reveal { opacity: 1; transform: none; animation: none; transition: none; }.hero-art,.aurora,.audio-mini b,.voice-orb,.voice-orb span,.rings i,.tech-orbit::after,.identity-card::after,.contact-orb { animation: none; }.signal-track { animation-duration: 56s; }
 }
